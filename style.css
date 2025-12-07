@@ -1,11 +1,12 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 20px;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
 }
+
 
 h1 {
     color: #00ff00;
@@ -153,6 +154,17 @@ body {
   .projects-grid {
     grid-template-columns: 1fr;
   }
+}
+.btn-nav,
+.btn {
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+
+.btn-nav:hover,
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+  opacity: 0.95;
 }
 
   
