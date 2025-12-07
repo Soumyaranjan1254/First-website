@@ -1,63 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Second Page</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" />
-<link rel="stylesheet" href="style.css" />
- <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <div class="navbar">
+    <div class="logo">Soumya Portfolio</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="page2.html">Contact</a>
+      <a href="project.html">Projects</a>
+      <a href="about.html">Third</a>
+    </div>
+  </div>
+
   <div class="page-wrapper">
     <div class="card">
-      <h1>Welcome to page 2</h1>
-      <p>Ye mera second web page hai.</p>
-
       <h2 id="contact">Contact Me</h2>
 
       <form id="contactForm">
-
-        <div style="margin: 10px;">
-          <input
-            id="nameInput"
-            type="text"
-            placeholder="Your Name"
-            style="padding: 8px; width: 250px;"
-          />
+        <div class="form-group">
+          <input id="nameInput" type="text" placeholder="Your Name">
           <small id="nameError" class="error"></small>
         </div>
 
-        <div style="margin: 10px;">
-          <input
-            id="emailInput"
-            type="text"
-            placeholder="Your Email"
-            style="padding: 8px; width: 250px;"
-          />
+        <div class="form-group">
+          <input id="emailInput" type="text" placeholder="Your Email">
           <small id="emailError" class="error"></small>
         </div>
 
-        <div style="margin: 10px;">
-          <textarea
-            id="msgInput"
-            rows="4"
-            placeholder="Your Message"
-            style="padding: 8px; width: 250px;"
-          ></textarea>
-          <small id="msgError" class="error"></small><br />
+        <div class="form-group">
+          <textarea id="msgInput" rows="4" placeholder="Your Message"></textarea>
+          <small id="msgError" class="error"></small><br>
           <small id="msgCount" class="success"></small>
         </div>
 
         <button type="submit" class="btn" id="submitBtn">Submit</button>
         <p id="successMsg" class="success"></p>
-
       </form>
 
-      <br /><br />
+      <br><br>
 
-      <a href="./index.html" class="btn">Back to Home</a>
-      <a href="./about.html" class="btn">Next page</a>
+      <a href="./index.html" class="btn">Home Page</a>
+      <a href="./project.html" class="btn">My Projects</a>
+      <a href="./about.html" class="btn">Third Page</a>
     </div>
   </div>
 

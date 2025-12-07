@@ -1,17 +1,72 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>My First Portfolio</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>My First Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color:black; color: white; text-align:center; font-family: Arial, sans-serif;">
-<h1 style="color: cyan;">Soumyaranjan muduli</h1>
-<p>Ye mera pehla web page hei.</p>
-<a href="https://www.instagram.com/all_._odia_._dj_._collection" target="_blank">
-    <button style="padding: 10px 20px; font-size: 18px; background-color: cyan; border: none; border-radius: 5px;">
-        My Instagram
+<body style="background-color: black; color: white; text-align: center; font-family: Arial, sans-serif;">
+
+  <div class="navbar">
+    <div class="logo">Soumya Portfolio</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="page2.html">Contact</a>
+      <a href="project.html">Projects</a>
+      <a href="about.html">Third</a>
+    </div>
+  </div>
+
+  <h1 style="color: cyan;">Soumyaranjan muduli</h1>
+  <p>Ye mera pehla web page hai.</p>
+
+  <!-- Instagram button -->
+  <a href="https://www.instagram.com/all_odia-_dj__collection" target="_blank">
+    <button
+      style="
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: cyan;
+        border: none;
+        border-radius: 8px;
+        margin: 10px;
+        cursor: pointer;
+      ">
+      My Instagram
     </button>
-</a>
-<a href="page2.html" class="btn" id="nextPageBtn">Next Page</a>
-<script src="script.js"></script>
+  </a>
+
+  <!-- New My Projects button -->
+  <a href="project.html">
+    <button
+      style="
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: orange;
+        border: none;
+        border-radius: 8px;
+        margin: 10px;
+        cursor: pointer;
+      ">
+      My Projects
+    </button>
+  </a>
+
+  <!-- Next Page link (Page 2) -->
+  <a href="page2.html" class="btn" id="nextPageBtn"
+     style="
+       display: inline-block;
+       padding: 10px 20px;
+       font-size: 18px;
+       background-color: green;
+       color: white;
+       text-decoration: none;
+       border-radius: 8px;
+       margin: 10px;
+     ">
+    Next Page
+  </a>
+
+  <script src="script.js"></script>
 </body>
 </html>
