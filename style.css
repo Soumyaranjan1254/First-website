@@ -44,6 +44,23 @@ h1 {
 .input-ok {
   border: 2px solid lightgreen;
 }
+select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background-color: #0f172a;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+label {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
 .btn {
   margin: 10px;
   font-size: 18px;
@@ -157,13 +174,21 @@ body {
 }
 .btn-nav,
 .btn {
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.5px;
   transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
 }
 
 .btn-nav:hover,
 .btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3px);
+  box-shadow: 0 0 18px rgba(255, 65, 108, 0.9);
   opacity: 0.95;
 }
 
